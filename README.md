@@ -8,4 +8,4 @@
 
 #### Preview
 
-![Preview](http://imgur.com/gLoaIha.png)
+![Preview](https://raw.github.com/pmaroco/dark-texstudio/master/img/preview.png)
