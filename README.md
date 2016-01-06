@@ -2,9 +2,10 @@
 
 #### How to Install
 
-1. Open TeXStudio
-2. Click in "Options" menu (upper bar) -> "Load Profile" and select the file "dark-theme.txsprofile"
-3. Restart TeXStudio.
+1. [Download the latest release](https://github.com/pmaroco/dark-texstudio/zipball/master)
+2. Open TeXStudio
+3. Click in "Options" menu (upper bar) -> "Load Profile" and select the file "dark-theme.txsprofile"
+4. Restart TeXStudio.
 
 #### Preview
 
