@@ -1,7 +1,7 @@
 # Dark Theme for TeXStudio
 
 #### !!! Before you start !!! 
-Backup your TeXStudio settings (Click in "Options" menu (upper bar) -> "Load Profile" and select the file "dark-theme.txsprofile"
+Backup your TeXStudio settings (Click in "Options" menu (upper bar) -> "Save Profile"
 
 #### How to Install
 
