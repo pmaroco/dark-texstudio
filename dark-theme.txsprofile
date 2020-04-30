@@ -681,46 +681,6 @@ Tools\After%20BibTeX%20Change=tmx://latex && tmx://bibtex && tmx://latex
 Tools\Auto%20Checkin%20after%20Save%20level=0
 Tools\Automatic%20Rerun%20Commands=latex|pdflatex|xelatex|lualatex|compile
 Tools\Automatic%20Rerun%20Times=5
-Tools\Commands\asy=/Library/TeX/texbin/asy ?m*.asy
-Tools\Commands\asy-dvi-chain=txs:///latex | txs:///asy | txs:///latex | txs:///view-dvi
-Tools\Commands\asy-pdf-chain=txs:///pdflatex | txs:///asy | txs:///pdflatex | txs:///view-pdf
-Tools\Commands\biber=/Library/TeX/texbin/biber %
-Tools\Commands\bibliography=txs:///bibtex
-Tools\Commands\bibtex=/Library/TeX/texbin/bibtex %.aux
-Tools\Commands\bibtex8=/Library/TeX/texbin/bibtex8 %.aux
-Tools\Commands\compile=txs:///pdflatex
-Tools\Commands\dvi-chain=txs:///latex | txs:///view-dvi
-Tools\Commands\dvi-pdf-chain=txs:///latex | txs:///dvipdf | txs:///view-pdf
-Tools\Commands\dvi-ps-pdf-chain=txs:///latex | txs:///dvips | txs:///ps2pdf | txs:///view-pdf
-Tools\Commands\dvipdf=/Library/TeX/texbin/dvipdf %.dvi
-Tools\Commands\dvipng=/Library/TeX/texbin/dvipng -T tight -D 120 %.dvi
-Tools\Commands\dvips=/Library/TeX/texbin/dvips -o %.ps %.dvi
-Tools\Commands\glossary=txs:///makeglossaries
-Tools\Commands\gs=/Library/TeX/texbin/gs \"?am.ps\"
-Tools\Commands\index=txs:///makeindex
-Tools\Commands\internal-pre-compile=txs:///pre-compile | txs:///conditionally-recompile-bibliography
-Tools\Commands\latex="/Library/TeX/texbin/latex -src -interaction=nonstopmode %.tex"
-Tools\Commands\latexmk="latexmk -pdf -silent -latexoption=\"-synctex=1\" %"
-Tools\Commands\lualatex="/Library/TeX/texbin/luatex -synctex=1 -interaction=nonstopmode %.tex"
-Tools\Commands\makeglossaries=/Library/TeX/texbin/makeglossaries %
-Tools\Commands\makeindex=/Library/TeX/texbin/makeindex %.idx
-Tools\Commands\metapost="/Library/TeX/texbin/mpost -interaction=nonstopmode ?me)"
-Tools\Commands\pdf-chain=txs:///pdflatex | txs:///view-pdf
-Tools\Commands\pdflatex="/Library/TeX/texbin/pdflatex -synctex=1 -interaction=nonstopmode %.tex"
-Tools\Commands\pre-compile=
-Tools\Commands\ps-chain=txs:///latex | txs:///dvips | txs:///view-ps
-Tools\Commands\ps2pdf=/Library/TeX/texbin/ps2pdf %.ps
-Tools\Commands\quick=txs:///compile | txs:///view
-Tools\Commands\recompile-bibliography=txs:///compile | txs:///bibliography | txs:///compile
-Tools\Commands\svn="svn "
-Tools\Commands\svnadmin="svnadmin "
-Tools\Commands\texindy=/Library/TeX/texbin/texindy %.idx
-Tools\Commands\view=txs:///view-pdf
-Tools\Commands\view-dvi=open %.dvi > /dev/null
-Tools\Commands\view-pdf=txs:///view-pdf-internal --embedded
-Tools\Commands\view-pdf-external=open %.pdf > /dev/null
-Tools\Commands\view-ps=open %.ps > /dev/null
-Tools\Commands\xelatex="/Library/TeX/texbin/xelatex -synctex=1 -interaction=nonstopmode %.tex"
 Tools\Display%20Names=@Invalid()
 Tools\Dvi2Png%20Mode=0
 Tools\Had%20Successful%20Process%20Start=true
